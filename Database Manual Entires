@@ -1,0 +1,37 @@
+Created 5 USERS. 
+
+INSERT INTO "Users" ("firstName", "lastName", "email") 
+VALUES 
+    ('John', 'Doe', 'jd@gmail'),   #5
+    ('Jane', 'Doe', 'jd2@gmail'),   #6
+    ('Mister', 'Smith', 'ms@mail'),   #7
+    ('Sally', 'Smith', 'ss@mail'),   #8
+    ('Alex', 'Neo', 'an@gmail');  #9
+
+INSERT INTO "Manufactures" ("companyName", "contactName", "contactEmail", "contactPhone") 
+VALUES 
+    ('Walmart', 'Hatchett', 'jh@gmail', '1234'),   #1
+    ('Target', 'Jernigan', 'lj@gmail', '2345'),   #2
+    ('Starbucks', 'Gierlach', 'eg@mail', '3456'),   #3
+    ('McDonalds', 'Tschida', 'tt@mail', '4567'),   #4
+    ('Chick-Fil-A', 'Rippy', 'ir@gmail', '5678');  #5
+
+INSERT INTO "Customers" ("companyName", "contactName", "contactEmail", "contactPhone") 
+VALUES 
+    ('Walmart', 'Hatchett', 'jh@gmail', '1234'),   #1
+    ('Target', 'Jernigan', 'lj@gmail', '2345'),   #2
+    ('Starbucks', 'Gierlach', 'eg@mail', '3456'),   #3
+    ('McDonalds', 'Tschida', 'tt@mail', '4567'),   #4
+    ('Chick-Fil-A', 'Rippy', 'ir@gmail', '5678');  #5
+
+INSERT INTO "items" ("name", "description") 
+VALUES 
+    ('Pencils', 'High Carbon'),    #1
+    ('Markers', 'Sniftastic'),      #2
+    ('Marker Board Eraser', 'fuzzy'),      #3
+    ('Pencil Eraser', 'rubber'),     #4
+    ('Marker Board', 'markable'),      #5
+    ('Tacks', 'Nope Dots'),     #6
+    ('Stapler','Not available in red');     #7
+
+    
